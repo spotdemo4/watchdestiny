@@ -11,6 +11,7 @@
     let kickURL = "https://player.kick.com/REPLACEME?autoplay=true"
     let twitchURL = "https://player.twitch.tv/?channel=REPLACEME&amp;parent=www.destiny.gg&amp;parent=stage.destiny.gg"
     
+    console.log(stream_data);
     if(embed[0] == 'youtube') {
         src_url = youtubeURL.replace('REPLACEME', embed[1]);
     } else if(embed[0] == 'kick') {
